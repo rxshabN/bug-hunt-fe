@@ -146,7 +146,7 @@ export default function Home() {
                   className="relative w-96 h-20 p-1 rounded-lg bg-orange-500 transition-all duration-500 group"
                 >
                   <div className="flex items-center justify-center w-full h-full px-10 py-5 text-3xl text-black bg-white/90 rounded-lg transition-all duration-500 group-hover:shadow-xl group-hover:shadow-[#b4501e99] group-hover:bg-white/90 group-hover:text-[2.2rem]">
-                    C/C++
+                    C++
                   </div>
                 </Button>
                 <Button
