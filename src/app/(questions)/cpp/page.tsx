@@ -85,7 +85,7 @@ const Cpp = () => {
         const { start_time } = response.data;
 
         const eventStartTime = new Date(start_time).getTime();
-        const eventEndTime = eventStartTime + 1.25 * 60 * 60 * 1000;
+        const eventEndTime = eventStartTime + 1 * 60 * 60 * 1000;
         const currentTime = new Date().getTime();
 
         const remainingTime = Math.max(
