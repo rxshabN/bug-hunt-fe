@@ -40,6 +40,7 @@ const Verified = () => {
             toast.success("Details updated successfully in database");
           }
         } catch (error) {
+          console.error("Error submitting data:", error);
           toast.error("Failed to update details in database");
         }
       };
