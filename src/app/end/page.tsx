@@ -16,7 +16,7 @@ const Verified = () => {
       setName(name);
       setRegNo(regNo);
     }
-  });
+  }, []);
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}

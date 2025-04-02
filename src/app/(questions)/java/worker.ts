@@ -1,4 +1,4 @@
-let remainingTime = 0;
+export let remainingTime = 0;
 let intervalId: ReturnType<typeof setInterval> | null = null;
 
 self.onmessage = (e) => {
