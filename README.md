@@ -28,14 +28,14 @@
 
 ## About The Project
 
-This is the frontend participant portal for the 2025 Bug Hunt 2.0, SIAM-VIT's technical event. The portal is used by the participants to view their questions based on level of difficulty and view a timer to monitor their progress throughout the event. The portal is built using NextJS.
+This is the frontend participant portal for the 2025 Bug Hunt 2.0, SIAM-VIT's technical event. The portal is used by the participants to view their questions based on programming language selection and view a timer to monitor their progress throughout the event. The portal is built using NextJS.
 
 Key Features:
 
 - Question randomization based on difficulty level
 - Real time timer synced with all participants
 - Anti-cheat safeguards to prevent participants from viewing questions before the event starts or switching questions during the event
-- Option to submit score at any time during the event
+- Option to submit score at the end of the event
 
 ### Built With
 
